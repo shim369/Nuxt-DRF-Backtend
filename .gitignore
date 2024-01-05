@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Compiled files
+*.pyc
+
+# Logs
+*.log
+
+# Build and Distribution
+build/
+dist/
+__pycache__/
+
+# Local environment variables
+.env
+
+.DS_Store
+db.sqlite3

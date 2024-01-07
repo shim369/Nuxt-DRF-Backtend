@@ -16,9 +16,11 @@ djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.1
 djoser==2.2.2
 fastapi==0.105.0
+gunicorn==21.2.0
 h11==0.14.0
 idna==3.6
 oauthlib==3.2.2
+packaging==23.2
 psycopg2==2.9.9
 pycparser==2.21
 pydantic==2.5.2

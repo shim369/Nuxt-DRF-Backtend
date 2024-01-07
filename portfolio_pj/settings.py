@@ -50,11 +50,7 @@ INSTALLED_APPS = [
     'portfolio_app',
 ]
 
-CORS_ALLOWeD_ORIGINS = [
-    "https://nuxt-django.vercel.app",
-    "http://127.0.0.1:8000",
-]
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

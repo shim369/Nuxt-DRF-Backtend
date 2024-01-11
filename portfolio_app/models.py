@@ -19,6 +19,8 @@ class Project(models.Model):
     big_image = models.ImageField('大画像', upload_to='', default='')
     demo_link = models.URLField('リンク', max_length=200)
     github_repo = models.URLField('GitHub', max_length=200)
+    frontend = models.CharField('フロントエンド', max_length=255, blank=True)
+    backend = models.CharField('バックエンド', max_length=255, blank=True)
     content = models.TextField('テキスト')
     created_at = models.DateTimeField('作成日', auto_now_add=True)
     created_by = models.ForeignKey(User, verbose_name='作者', related_name="projects", on_delete=models.CASCADE)

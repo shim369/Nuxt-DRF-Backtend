@@ -48,9 +48,13 @@ INSTALLED_APPS = [
     'djoser',
     'corsheaders',
     'portfolio_app',
+    'django_summernote',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+SUMMERNOTE_THEME = 'bs4'
+X_FRAME_OPTOPNS = 'SAMEORIGIN'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
